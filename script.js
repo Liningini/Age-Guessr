@@ -32,7 +32,7 @@ function Tebak() {
         return;
     }
     btn.disabled = true;
-    const audio = new Audio("assets/music.mp3");
+    const audio = new Audio("assets/Music.mp3");
     audio.play();
     let idx = 0;
         bl.innerText = loadingTexts[idx];
