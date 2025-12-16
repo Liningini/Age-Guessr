@@ -23,10 +23,6 @@ function Tebak() {
         alert("Minimal 1000 WOY!");
         return;
     }
-    if (Sekarang < 2025) {
-        alert("Tahun Berapa sekarang WOY!");
-        return;
-    }
     if (Lahir > Sekarang) {
         alert("jangan ngaco beb");
         return;
